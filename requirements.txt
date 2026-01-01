@@ -4,10 +4,12 @@ asn1crypto==1.5.1
 certifi==2025.6.15
 cffi==1.17.1
 charset-normalizer==3.4.2
+cloudinary==1.44.1
 cryptography==45.0.4
 cssselect2==0.8.0
 dj-database-url==2.1.0
 Django==3.2.1
+django-cloudinary-storage==0.3.0
 django-xhtml2pdf==0.0.4
 gunicorn==23.0.0
 html5lib==1.1
@@ -25,6 +27,7 @@ pyhanko-certvalidator==0.27.0
 pypdf==5.6.1
 python-bidi==0.6.6
 python-dateutil==2.9.0.post0
+python-dotenv==1.2.1
 pytz==2025.2
 PyYAML==6.0.2
 reportlab==4.4.2
