@@ -1,0 +1,9 @@
+{% extends 'projects/base.html' %}
+{% block content %}
+    <h3 class="jumbotron">Welcome to my project. What would you like to do?</h3>
+    <ol>
+        <li><a href="{% url 'enter-words' %}">Cheat on Word Games</a></li>
+        <li><a href="{% url 'cryptology-home' %}">Encrypt/Decrypt a text</a></li>
+    </ol>
+
+{% endblock content %}
